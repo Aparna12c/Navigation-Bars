@@ -1,0 +1,329 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+
+/*navbar-one */
+.navbar-one
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+            padding: 20px 60px;
+          background-color: #5DA7DB;
+
+}
+
+.navbar-one ul li
+{
+    display: inline-block;
+}
+
+.navbar-one ul li a
+{
+       color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-right: 21px;
+}
+
+.navbar-one ul li a:hover
+{
+    color: green;
+}
+
+
+.logo
+{
+        display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo .logo-icon
+{
+        color: green;
+    padding-right: 3px;
+}
+
+.logo p{
+        font-size: 18px;
+    font-weight: 600;
+}
+
+ul li a .fa
+{
+    font-size: 20px;
+}
+
+
+
+
+
+/*navbar-two  https://codepen.io/rexdesigndk/pen/gJYExb*/
+.container-two
+{
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,90,183,1) 0%, rgba(0,212,255,1) 100%);
+    height: 20vh;
+    width: 100%;
+    padding: 0px 54px;
+}
+
+.navbar-two ul li
+{
+    display: inline-block;
+}
+
+.navbar-two ul li a
+{
+       color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
+.navbar-two
+{
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 36px;
+    border: 1px solid white;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    margin-top: 3px;
+    position: relative;
+}
+
+
+
+.navbar-two ul li{
+float: left;
+    list-style: none;
+    padding: 0px 18px;
+    border-right: 1px solid lightgrey;
+    height: 32px;  
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.navbar-two ul li a{
+  text-decoration: none;
+}
+.navbar-two ul li:last-child{  
+  border-right: none;
+}
+
+
+
+
+
+/*navbar-three  https://codepen.io/sanketbodke/pen/LYyzzYb*/
+
+.navbar-three
+{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 4px 13px -3px rgb(0 0 0 / 62%);
+    background-color: white;
+    /* position: relative; */
+    /* border: 1px solid; */
+    padding: 20px 40px;
+
+}
+
+
+
+.navbar-three ul li
+{
+    display: inline-block;
+}
+
+
+.navbar-three ul li a{
+    color: gray;
+    text-transform: capitalize;
+    padding-right: 18px;
+    font-size: 19px;
+}
+
+.navbar-three h1 a{
+    color: black;
+    font-size: 30px;
+}
+
+.navbar-three ul li a:hover{
+
+color: green;
+}
+
+.container-three
+{
+    width: 100%;
+    padding: 15px 0px;
+    /* background-color: pink; */
+   
+
+}
+
+
+
+
+/*navbar-four  https://codepen.io/OB-1/pen/WQrVGj*/
+
+
+
+
+.navbar-five
+{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+   color: white;
+    padding: 15px 5%;
+        
+
+}
+
+.navbar-five ul{
+        display: flex;
+    align-items: center;
+}
+
+
+.navbar-five .logo-five{
+   font-weight: 600;
+      color: white;
+}
+
+.navbar-five ul li a{
+  color: white;
+    margin-right: 40px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.navbar-five ul li:last-child{  
+margin-right: 0;
+}
+
+ul li button{
+    padding: 8px 16px;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
+
+.navbar-six
+{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+   color: white;
+    padding: 15px 5%;
+        
+
+}
+
+.navbar-six ul{
+        display: flex;
+    align-items: center;
+}
+
+
+.navbar-six .logo-five{
+   font-weight: 600;
+      color: white;
+}
+
+.navbar-six ul li a{
+  color: white;
+    margin-right: 40px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.navbar-six ul li a:not(:last-child)
+{
+    margin-right: 0;
+}
+
+.contact-button button{
+    padding: 8px 16px;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.navbar-seven
+{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+   color: white;
+    padding: 15px 5%;
+        
+
+}
+
+.navbar-seven ul{
+        display: flex;
+    align-items: center;
+}
+
+
+.navbar-seven .logo-five{
+   font-weight: 600;
+      color: white;
+}
+
+.navbar-seven ul li a{
+  color: white;
+    margin-right: 40px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.navbar-seven ul li a:not(:last-child)
+{
+    margin-right: 0;
+}
+
+.navbar-seven ul li button{
+    padding: 8px 16px;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
